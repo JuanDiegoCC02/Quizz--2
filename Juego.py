@@ -11,7 +11,7 @@ class Juego:
         print(f"\n¡Bienvenido al juego, {self.nombre_jugador}!")
         print("El juego ha comenzado..")
         
-
+        #Ingreso del mensaje e impresion del msj_Cifrado
         mensaje=input("Ingrese el mensaje que desea Cifrar: ")
         msj_Cifrado=self.Cifrado_de_Cesar(mensaje)
         print(f"Mensaje Cifrado: {msj_Cifrado}")
@@ -30,10 +30,10 @@ class Juego:
         movimiento = 1
         msj_Cifrado=""
 
-       
        #For para recorrer las letras del mensaje  //Metodo .upper para la conversion de letras a MAYUCULAS
         for letra in mensaje.upper():
             if letra in abcedario:
+               
                #Aplicacion del metodo .find para enontrar la posicion de la letra
                i=abcedario.find(letra)
                i+=movimiento
@@ -43,4 +43,5 @@ class Juego:
 
             else:
                 msj_Cifrado+=letra
+
         return msj_Cifrado
