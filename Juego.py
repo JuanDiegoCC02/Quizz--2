@@ -1,5 +1,4 @@
 #Metodo de Cifrado de Cesar
-
 class Juego:
     def __init__(self, nombre_jugador):
       
@@ -34,7 +33,7 @@ class Juego:
         for letra in mensaje.upper():
             if letra in abcedario:
                
-               #Aplicacion del metodo .find para enontrar la posicion de la letra
+               #Aplicacion del metodo .find para enontrar la posicion de las letras
                i=abcedario.find(letra)
                i+=movimiento
                if i >=27:

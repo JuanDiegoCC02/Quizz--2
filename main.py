@@ -2,7 +2,7 @@ from Juego import Juego
 
 def mostrar_menu():
     print("=== MENÚ PRINCIPAL ===")
-    print("1. Iniciar juego")
+    print("1. Codificar")
     print("2. Salir")
     print("======================")
 
