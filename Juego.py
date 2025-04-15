@@ -31,7 +31,7 @@ class Juego:
         msj_Cifrado=""
 
        
-       #For para recorrer las letras del mensaje.
+       #For para recorrer las letras del mensaje  //Metodo .upper para la conversion de letras a MAYUCULAS
         for letra in mensaje.upper():
             if letra in abcedario:
                #Aplicacion del metodo .find para enontrar la posicion de la letra
